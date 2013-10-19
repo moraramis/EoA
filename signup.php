@@ -43,9 +43,9 @@ if(isset($_POST['submit'])){
 
         //If there are any errors, display the form again. Otherwise, insert the data
         if(!count($errors)){
-            $sql = "INSERT INTO users(userName, firstName, lastName, email)
+            $sql = "INSERT INTO users(uname, fname, lname, email)
                 VALUES (?, ?, ?, ?);
-           UPDATE users SET userPassword = MD5(CONCAT('userSalt','userPassword'))";
+           UPDATE users SET password = MD5(CONCAT('userSalt','userPassword'))";
 
             $stmt = $db->prepare($sql);
 

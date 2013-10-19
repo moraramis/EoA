@@ -73,7 +73,7 @@
                                     <input class="button round small" type="button" name="go_login" id="go_login" value="Go!"> -->
 
                                     <!-- Table Based 1 Row Login Form -->
-                                    <table width="100%" border="0">
+                                    <table width="100%" border="0" style="border-style: solid; border-width: 1px;border-color: #d9d9d9;">
                                         <tr>
                                             <td><label for="username">Username</label>
     	                                        <input type="text" id="username" contenteditable="true"></td>
