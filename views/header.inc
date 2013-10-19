@@ -59,8 +59,8 @@
                 <div class="row">
                     <div class="small-12 columns">
                         <div class="row">
-                            <img src="img/logo.png" class="logo" height="133.5" width="200" alt ="Essence of Awesome Logo" style="margin-left: 10%">
-                            <div class="right_form"  style="margin-top: 3%; margin-right: 3%">
+                            <img src="img/logo.png" class="logo" height="267" width="400" alt ="Essence of Awesome Logo" style="margin-left: 10%; margin-bottom: -7%; margin-top: -3%">
+                            <div class="right_form"  style=" margin-top: 10%; margin-right: 1.5%; margin-bottom: -3%">
                                 <!-- <input type="text" contenteditable="true" value="Search"> -->
                                 <!-- <div class="panel1"> -->
                                 <form method="post">
