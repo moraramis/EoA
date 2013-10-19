@@ -9,10 +9,9 @@ $db = new \PDO(MY_DSN, MY_USER, MY_PASS);
 $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
 $fields = array(
-    'uname'=>'User Name',
-    'fname'=>'First Name',
-    'lname'=>'Last Name',
+    'userName'=>'User Name',
+    'firstName'=>'First Name',
+    'lastName'=>'Last Name',
     'email'=>'Email',
-    'password'=>'Password',
 );
 ?>

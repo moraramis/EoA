@@ -41,7 +41,7 @@
 					                    <p>Essence of Awesome allows you to create your own special ice cream dessert. You get to choose up to 3 flavors, and 2 mix-ins, and have them shipped directly to your home!</p>
 					                    <h3>Why YOU want to be the Essence of Awesome.</h3>
 					                    <p>When you sign up with Essence of Awesome, you get exclusive deals on all our new flavors. Become a community member and share your favorite mixes of delicious flavors. Transform into the Essence of Awesome today!</p>
-					                    <p><a href="signup.php" class="button round">Sign Up!</a></p>
+					                    <p><a href="signup_eoa.php" class="button round">Sign Up!</a></p>
 					                </div>
 					            </div>
 							</div>
