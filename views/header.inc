@@ -35,8 +35,8 @@
                 <div class="small-12 columns">
                     <div class="row">
                         <img src="img/logo.png" class="logo" height="267" width="400" alt ="Essence of Awesome Logo">
-                            <div class="right_form"  style="margin-top: 1%">
-                                <input type="text" contenteditable="true" value="Search">
+                            <div class="right_form"  style="margin-top: 1%; width: 50% ">
+                                <!-- <input type="text" contenteditable="true" value="Search"> -->
 
                                         <p class="wb">Welcome Back, <?php  echo htmlentities($data["username"]); ?></p>
                                         </div>
@@ -59,17 +59,31 @@
                 <div class="row">
                     <div class="small-12 columns">
                         <div class="row">
-                            <img src="img/logo.png" class="logo" height="267" width="400" alt ="Essence of Awesome Logo">
-                            <div class="right_form"  style="margin-top: 1%">
-                                <input type="text" contenteditable="true" value="Search">
-                                <div class="panel1">
+                            <img src="img/logo.png" class="logo" height="133.5" width="200" alt ="Essence of Awesome Logo" style="margin-left: 10%">
+                            <div class="right_form"  style="margin-top: 3%; margin-right: 3%">
+                                <!-- <input type="text" contenteditable="true" value="Search"> -->
+                                <!-- <div class="panel1"> -->
                                 <form method="post">
+                                    <!-- Original Login Form
                                     <p class="login">Login</p>
+                                    <label for="username">Username</label>
                                     <input type="text" width="150" contenteditable="true" value="Username" id="username">
+                                    <label for="password">Password</label>
                                     <input type="text" width="150" contenteditable="true" value="Password" id="password">
-                                    <input class="button round small" type="button" name="go_login" id="go_login" value="Go!">
+                                    <input class="button round small" type="button" name="go_login" id="go_login" value="Go!"> -->
+
+                                    <!-- Table Based 1 Row Login Form -->
+                                    <table width="100%" border="0">
+                                        <tr>
+                                            <td><label for="username">Username</label>
+    	                                        <input type="text" id="username" contenteditable="true"></td>
+                                            <td><label for="password">Password</label>
+    	                                        <input type="text" id="password" contenteditable="true"></td>
+                                            <td><input class="button round small" type="button" name="go_login" id="go_login" value="Go!"></td>
+                                        </tr>
+                                    </table>
                                 </form>
-                                </div>
+                                <!-- </div> -->
                             </div>
                         </div>
                         <hr />
