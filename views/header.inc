@@ -79,7 +79,7 @@
     	                                        <input type="text" id="username" contenteditable="true"></td>
                                             <td><label for="password">Password</label>
     	                                        <input type="text" id="password" contenteditable="true"></td>
-                                            <td><input class="button round small" type="button" name="go_login" id="go_login" value="Go!" style="margin-top: 10px; margin-bottom: auto"></td>
+                                            <td><input class="button round small" type="button" name="go_login" id="go_login" value="Go!" style="margin-top: 5px; margin-bottom: auto"></td>
                                         </tr>
                                     </table>
                                 </form>
