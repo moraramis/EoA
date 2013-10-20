@@ -1,48 +1,19 @@
 <?php
+    require_once "db.php";
+    require_once "model/authModel.php";
+    require_once "views/authView.php";
 
-require_once "db.php";
-//require_once "../model/userModel.php";
-require_once "model/authModel.php";
-//require_once "views/userView.php";
-require_once "views/authView.php";
+    $model = new authModel(MY_DSN, MY_USER, MY_PASS);
+    $view = new authView();
 
-$model = new authModel(MY_DSN, MY_USER, MY_PASS);
+    //Log in 
+    $username = empty($_POST['username']) ? '' : strtolower(trim($_POST['username']));
+    $password = empty($_POST['password']) ? '' : trim($_POST['password']);
 
-//$model = new userModel(MY_DSN, MY_USER, MY_PASS);
-//$view = new userView();
+    $form = 'form';
+    $user = NULL;
 
-sec_session_start();
-
-$user = NULL;
-
-//$contentPage = 'showLocation';
-
-
-//$view->show('header', '');
-//$view->show($contentPage, $user);
-//$view->show('footer', '');
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    //This Block of code was carried over from InterestPoint and can be cleaned up before handoff.
-    //
-    //    <div id="login_form">
-    //        <h2>Login</h2>
-    //        <p>Please Log in with your username and password below.</p>
-    //        <form action ="?" method="POST">
-    //            <label for="username">Username:</label><br />
-    //            <input type="text" name="username" id="username" maxlength="30" size="20"/><br />
-    //            <label for="password">Password:</label><br />
-    //            <input type="password" name="password" id="password" maxlength="30" size="20" /><br />
-    //            <br />
-    //            <input class="button success" type="submit" value="Submit" />
-    //        </form>
-    //    </div>
-    //
-    //    <h2>New User?</h2>
-    //    <p><a href="signup.php" class="button">Sign Up Here</a> </p> -->
-    //
-    /////////////////////////////////////////////////////////////////////////////////////////////////
-
+    //My if conditional that will display the success.inc page if log in was successful
     if (!empty($_SESSION['userInfo'])){
         $form = 'success';
         $user = $_SESSION['userInfo'];
@@ -52,14 +23,14 @@ $user = NULL;
         $user = $model->getUserByNamePass($username, $password);
         if (is_array($user)) {
             $form = 'success';
-        $_SESSION['userInfo'] = $user;
-        }else{
+            $_SESSION['userInfo'] = $user;
+    }else{
         "Please Log in";
-        }
+                        }
     }
 
     if (isset($_SESSION['userInfo']))
-        echo('
+    echo('
             <div class="row">
                 <div class="small-12 columns">
                     <div class="row">
@@ -79,8 +50,11 @@ $user = NULL;
                                     <li><a href="logout.php" class="small button">Log Out</a></li>
                                 </ul>
                             </div>
-                        </div>');
-    else
+                        </div>
+       
+
+    ');   
+    else  
         echo('
                 <div class="row">
                     <div class="small-12 columns">
@@ -122,5 +96,5 @@ $user = NULL;
                         </ul>
                     </div>
                 </div>
-            ');
+            ');        
 ?>
