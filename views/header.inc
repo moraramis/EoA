@@ -53,7 +53,7 @@ $user = NULL;
         if (is_array($user)) {
             $form = 'success';
         $_SESSION['userInfo'] = $user;
-        }else{
+    }else{
         "Please Log in";
         }
     }
