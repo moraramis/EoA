@@ -17,12 +17,12 @@
     <file path="/signup.html" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1380783915797" ignored="false" />
     <file path="/nutrition.html" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1380770990142" ignored="false" />
     <file path="/customize.html" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1380852023061" ignored="false" />
-    <file path="/header.inc" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382386986329" ignored="false" />
+    <file path="/header.inc" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382228093120" ignored="false" />
     <file path="/footer.inc" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1381971833920" ignored="false" />
     <file path="/calculate.js" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1381983879040" ignored="false" />
     <file path="/customize1.html" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1381972529226" ignored="false" />
     <file path="/customize.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1381975916811" ignored="false" />
-    <file path="/signup.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382391221148" ignored="false" />
+    <file path="/signup.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382384470476" ignored="false" />
     <file path="/authModel.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382221304301" ignored="false" />
     <file path="/contact.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382352667439" ignored="false" />
     <file path="/about.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382231351230" ignored="false" />
@@ -33,7 +33,6 @@
     <file path="/contact_thanks.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382383943024" ignored="false" />
     <file path="/signup_thanks.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382384590100" ignored="false" />
     <file path="/order_thanks.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382384937235" ignored="false" />
-    <file path="/userModel.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382387247466" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="about.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="40" selection-end="40" vertical-scroll-proportion="-1.4705882">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.4705882">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="39" selection-end="39" vertical-scroll-proportion="-1.4705882">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customize.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customize.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.4705882">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,76 +131,7 @@
       <file leaf-file-name="signup.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/signup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="39" selection-start="1977" selection-end="1977" vertical-scroll-proportion="0.6867168">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="authView.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/authView.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="authModel.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/authModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding>
-                <marker date="1382351932946" expanded="true" signature="689:741" placeholder="-- AND (user..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/header.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="14" selection-start="153" selection-end="153" vertical-scroll-proportion="-4.4117646">
-              <folding>
-                <marker date="1382387365130" expanded="true" signature="2023:3432" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="2070:3401" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="2108:2733" placeholder="..." />
-                <marker date="1382387365130" expanded="false" signature="2288:2315" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="2316:2689" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="2831:3366" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="3493:6465" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="3544:6442" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="3586:5847" placeholder="..." />
-                <marker date="1382387365130" expanded="false" signature="3716:3769" placeholder="..." />
-                <marker date="1382387365130" expanded="false" signature="3832:3888" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="3889:5816" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="4114:5733" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="4156:4761" placeholder="..." />
-                <marker date="1382387365130" expanded="false" signature="4914:4975" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="4976:5693" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="5021:5648" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="5070:5215" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="5264:5413" placeholder="..." />
-                <marker date="1382387365130" expanded="false" signature="5560:5596" placeholder="..." />
-                <marker date="1382387365130" expanded="true" signature="5928:6415" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userModel.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/userModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="24" selection-start="381" selection-end="381" vertical-scroll-proportion="-13.235294">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userview.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/userview.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="96" column="73" selection-start="3312" selection-end="3312" vertical-scroll-proportion="3.0075188">
               <folding />
             </state>
           </provider>
@@ -189,11 +155,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/db.php" />
         <option value="$PROJECT_DIR$/signup_eoa.php" />
         <option value="$PROJECT_DIR$/views/header_eoa.inc" />
+        <option value="$PROJECT_DIR$/views/header.inc" />
         <option value="$PROJECT_DIR$/contact_thanks.html" />
         <option value="$PROJECT_DIR$/contact_thanks.php" />
         <option value="$PROJECT_DIR$/contact_process.php" />
+        <option value="$PROJECT_DIR$/signup.php" />
         <option value="$PROJECT_DIR$/signup_thanks.php" />
         <option value="$PROJECT_DIR$/order_thanks.php" />
         <option value="$PROJECT_DIR$/about.php" />
@@ -202,9 +171,6 @@
         <option value="$PROJECT_DIR$/customize.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/order.php" />
-        <option value="$PROJECT_DIR$/model/userModel.php" />
-        <option value="$PROJECT_DIR$/views/header.inc" />
-        <option value="$PROJECT_DIR$/signup.php" />
       </list>
     </option>
   </component>
@@ -257,34 +223,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="EoA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EoA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EoA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EoA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EoA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -452,6 +390,71 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/authView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_thanks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="52" selection-start="303" selection-end="303" vertical-scroll-proportion="0.21929824">
+          <folding>
+            <element signature="e#550#574#0" expanded="true" />
+            <element signature="e#584#610#0" expanded="true" />
+            <element signature="e#650#706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="40" selection-start="784" selection-end="784" vertical-scroll-proportion="0.8323058">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.34461153">
+          <folding>
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1382351932951" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_thanks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="83" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.65789473">
+          <folding>
+            <element signature="e#558#582#0" expanded="true" />
+            <element signature="e#596#622#0" expanded="true" />
+            <element signature="e#666#722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/signup_thanks.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="0" selection-end="1120" vertical-scroll-proportion="0.09398496">
@@ -505,6 +508,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nutrition.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -523,75 +533,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/authView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/authModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1382351932946" expanded="true" signature="689:741" placeholder="-- AND (user..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/userview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/userModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="381" selection-end="381" vertical-scroll-proportion="-13.235294">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/header.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="153" selection-end="153" vertical-scroll-proportion="-4.4117646">
-          <folding>
-            <marker date="1382387365130" expanded="true" signature="2023:3432" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="2070:3401" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="2108:2733" placeholder="..." />
-            <marker date="1382387365130" expanded="false" signature="2288:2315" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="2316:2689" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="2831:3366" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="3493:6465" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="3544:6442" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="3586:5847" placeholder="..." />
-            <marker date="1382387365130" expanded="false" signature="3716:3769" placeholder="..." />
-            <marker date="1382387365130" expanded="false" signature="3832:3888" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="3889:5816" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="4114:5733" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="4156:4761" placeholder="..." />
-            <marker date="1382387365130" expanded="false" signature="4914:4975" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="4976:5693" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="5021:5648" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="5070:5215" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="5264:5413" placeholder="..." />
-            <marker date="1382387365130" expanded="false" signature="5560:5596" placeholder="..." />
-            <marker date="1382387365130" expanded="true" signature="5928:6415" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/signup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="39" selection-start="1977" selection-end="1977" vertical-scroll-proportion="0.6867168">
+        <state line="96" column="73" selection-start="3312" selection-end="3312" vertical-scroll-proportion="3.0075188">
           <folding />
         </state>
       </provider>
