@@ -34,7 +34,7 @@
 				    <div class="large-5 columns">
 				        <h4>Find us on all the Social Networks, or get ahold of us with this form. We promise we will get back to you as soon as possible.</h4>
 				        <div class="panel">
-				            <form>
+				            <form action="contact_process.php" method="post">
 				                <label for="name" style="left: auto">Name: </label>
 				                <input type="text" contenteditable="true" name="name" id="name">
 				                <label for="email" style="left: auto">Email Address: </label>
@@ -43,7 +43,7 @@
 				                <input type="text" contenteditable="true" name="phone" id="phone">
 				                <label for="reason" style="left: auto">Reason for Contact: </label>
 				                <textarea name="reason" id="reason" wrap="soft" maxlength="1060" cols="200" rows="50"></textarea>
-				                <p><a href="index.php" class="button round">Submit</a></p>
+				                <p><input type="submit" name="button" id="button" value="Submit" class="button round"</p>
 				            </form>
 				        </div>
 				    </div>
