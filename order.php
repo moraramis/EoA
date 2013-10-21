@@ -79,7 +79,7 @@
                                 <option value="2019">2019</option>
                                 <option value="2020">2020</option>
                             </select>
-                            <p><a href="index.php"  class="button round">Order!</a></p>
+                            <p><a href="order_thanks.php"  class="button round">Order!</a></p>
                         </div>
                     </div>
                             </form>

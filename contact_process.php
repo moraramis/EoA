@@ -25,5 +25,5 @@
 
     mail($webMaster, $subject, $body, "From: $name");
     mail($webmaster2, $subject, $body, "From: $name");
-    header("Location: contact_thanks.html");
+    header("Location: contact_thanks.php");
 ?>

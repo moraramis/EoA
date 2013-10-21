@@ -94,7 +94,7 @@
                 <div class="row">
                     <div class="large-6 columns">
                         <div class="panel">
-                            <form method="post" action="signup.php">
+                            <form method="post" action="signup_thanks.php">
 
                                 <?php
                                     foreach($fields AS $field=>$label){
