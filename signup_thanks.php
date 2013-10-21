@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -22,7 +21,6 @@
         <p>Thank you for signing up with the most Awesome Ice Cream company in the world! Now that you are Awesome too, you can go ahead and order your very own, personalized ice cream treat.</p>
         <p>You will be sent to the "Customizer" page in 10 seconds, or click <a href="customize.php"><strong>Here</strong></a> to go there right now.</p>
     </div>
-</div>    
 </body>
 
 <?php
