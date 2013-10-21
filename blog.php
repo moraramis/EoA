@@ -1,6 +1,6 @@
 <?php 
 	include('views/header.inc');
-    sec_session_start();
+    //sec_session_start();
 ?>
 
 <!DOCTYPE html>

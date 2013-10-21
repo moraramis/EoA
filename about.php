@@ -1,6 +1,6 @@
 <?php 
 	include('views/header.inc');
-	sec_session_start();
+	//sec_session_start();
 ?>
 <!DOCTYPE html>
     <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
