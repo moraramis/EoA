@@ -12,16 +12,16 @@
         'firstName'=>'First Name',
         'lastName'=>'Last Name',
         'email'=>'Email',
-        'password1'=>'Password',
-        'password2'=>'Re-Type Your Password'
+        //'password1'=>'Password',
+        //'password2'=>'Re-Type Your Password'
         //'homeZipcode'=>'Zip Code',
     );
 
     if(isset($_POST['submit'])){
 
         $values = array();
-        //$userPassword1 = MD5($_POST["userPassword1"]);
-        //$userPassword2 = MD5($_POST["userPassword2"]);
+        $userPassword1 = MD5($_POST["userPassword1"]);
+        $userPassword2 = MD5($_POST["userPassword2"]);
 
         //if($userPassword1 == '' || $userPassword2 == ''){
         //    echo "You forgot to enter a password.";
@@ -43,18 +43,18 @@
             if(!isset($values['email']) || !strlen($values['email'])){
                 $errors['email'] = 'Please Enter an Email address';
             }
-            if(!isset($values['password1']) || !strlen($values['password1'])){
-                $errors['password1'] = 'Please Enter a Password';
-            }
-            if(!isset($values['password2']) || !strlen($values['password2'])){
-                $errors['password2'] = 'Re-Enter your Password';
-            }
+            //if(!isset($values['password1']) || !strlen($values['password1'])){
+            //    $errors['password1'] = 'Please Enter a Password';
+            //}
+            //if(!isset($values['password2']) || !strlen($values['password2'])){
+            //    $errors['password2'] = 'Re-Enter your Password';
+            //}
 
             //If there are any errors, display the form again. Otherwise, insert the data
             if(!count($errors)){
-                $sql = "INSERT INTO users(userName, firstName, lastName, email, password1)
-                  VALUES (?, ?, ?, ?, ?);
-                UPDATE users SET userPassword = MD5(CONCAT('userSalt','userPassword'))";
+                $sql = "INSERT INTO users(userName, firstName, lastName, email)
+                  VALUES (?, ?, ?, ?);
+                UPDATE users SET userPassword = MD5(CONCAT('userSalt','userPassword1'))";
 
                 $stmt = $db->prepare($sql);
 
@@ -121,10 +121,10 @@
                                     }
                                 ?>
 
-                                <!--<p><label for="userPassword1">Type a Password</label>
+                                <p><label for="userPassword1">Type a Password</label>
                                     <input name="userPassword1" type="password"></p>
                                 <p> <label for="userPassword2">Re-Type your password</label>
-                                    <input name="userPassword2" type="password"></p> -->
+                                    <input name="userPassword2" type="password"></p>
                                 <p>By Clicking <b>Sign Up!</b> You Agree to Our <a href="tos_page.php">Terms of Service</a></p>
                                     <input class="button round"type="submit" name="submit" value="Sign Up!" />
                             </form>

@@ -19,7 +19,7 @@
     <h2 style="text-align: center">Thank You!</h2>
     <div class="panel" style="width: 80%; text-align: center; margin-left: 10%" >
         <p>Thank you for signing up with the most Awesome Ice Cream company in the world! Now that you are Awesome too, you can go ahead and order your very own, personalized ice cream treat.</p>
-        <p>You will be sent to the "Customizer" page in 10 seconds, or click <a href="customize.php"><strong>Here</strong></a> to go there right now.</p>
+        <p>You will be sent back to the Home page to login in 10 seconds, or click <a href="index.php"><strong>Here</strong></a> to go there right now.</p>
     </div>
 </body>
 

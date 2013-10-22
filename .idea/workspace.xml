@@ -22,7 +22,7 @@
     <file path="/calculate.js" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1381983879040" ignored="false" />
     <file path="/customize1.html" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1381972529226" ignored="false" />
     <file path="/customize.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1381975916811" ignored="false" />
-    <file path="/signup.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382384470476" ignored="false" />
+    <file path="/signup.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382399954342" ignored="false" />
     <file path="/authModel.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382221304301" ignored="false" />
     <file path="/contact.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382352667439" ignored="false" />
     <file path="/about.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382231351230" ignored="false" />
@@ -31,7 +31,7 @@
     <file path="/order.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382384957422" ignored="false" />
     <file path="/contact_thanks.html" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382352426159" ignored="false" />
     <file path="/contact_thanks.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382383943024" ignored="false" />
-    <file path="/signup_thanks.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382384590100" ignored="false" />
+    <file path="/signup_thanks.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382400164031" ignored="false" />
     <file path="/order_thanks.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382384937235" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,10 +124,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="signup.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/signup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="56" selection-start="561" selection-end="561" vertical-scroll-proportion="-0.4699248">
+            <state line="50" column="14" selection-start="1891" selection-end="1891" vertical-scroll-proportion="-9.558824">
+              <folding>
+                <marker date="1382400063201" expanded="true" signature="2746:2850" placeholder="..." />
+                <marker date="1382400063201" expanded="true" signature="2977:3000" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup_thanks.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/signup_thanks.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="97" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.65789473">
               <folding />
             </state>
           </provider>
@@ -158,7 +170,6 @@
         <option value="$PROJECT_DIR$/contact_thanks.html" />
         <option value="$PROJECT_DIR$/contact_thanks.php" />
         <option value="$PROJECT_DIR$/contact_process.php" />
-        <option value="$PROJECT_DIR$/signup_thanks.php" />
         <option value="$PROJECT_DIR$/order_thanks.php" />
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/blog.php" />
@@ -167,6 +178,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/order.php" />
         <option value="$PROJECT_DIR$/signup.php" />
+        <option value="$PROJECT_DIR$/signup_thanks.php" />
       </list>
     </option>
   </component>
@@ -429,13 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/signup_thanks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="0" selection-end="1120" vertical-scroll-proportion="0.09398496">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.27743527">
@@ -501,7 +506,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/signup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="56" selection-start="561" selection-end="561" vertical-scroll-proportion="-0.4699248">
+        <state line="50" column="14" selection-start="1891" selection-end="1891" vertical-scroll-proportion="-9.558824">
+          <folding>
+            <marker date="1382400063201" expanded="true" signature="2746:2850" placeholder="..." />
+            <marker date="1382400063201" expanded="true" signature="2977:3000" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signup_thanks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="97" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.65789473">
           <folding />
         </state>
       </provider>
