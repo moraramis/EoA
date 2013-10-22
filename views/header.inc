@@ -1,15 +1,15 @@
 <?php
 
 require_once "db.php";
-//require_once "../model/userModel.php";
-require_once "model/authModel.php";
-//require_once "views/userView.php";
-require_once "views/authView.php";
+require_once "model/userModel.php";
+require_once "/model/authModel.php";
+require_once "/views/userView.php";
+require_once "/views/authView.php";
 
 $model = new authModel(MY_DSN, MY_USER, MY_PASS);
 
-//$model = new userModel(MY_DSN, MY_USER, MY_PASS);
-//$view = new userView();
+$model = new userModel(MY_DSN, MY_USER, MY_PASS);
+$view = new userView();
 
 sec_session_start();
 
@@ -68,6 +68,7 @@ $user = NULL;
                                 <!-- <input type="text" contenteditable="true" value="Search"> -->
 
                                         <p class="wb">Welcome Back, <?php  echo htmlentities($data["username"]); ?></p>
+                                        <p class="button small round"><a href="logout.php">Logout</a></p>
                                         </div>
                                      </div>
                                  <hr />
@@ -89,7 +90,7 @@ $user = NULL;
                             <div class="right_form"  style=" margin-top: 10%; margin-right: 1.5%; margin-bottom: -3%">
                                 <!-- <input type="text" contenteditable="true" value="Search"> -->
                                 <!-- <div class="panel1"> -->
-                                <form method="post">
+                                <form action="?" method="POST">
                                     <!-- Original Login Form
                                     <p class="login">Login</p>
                                     <label for="username">Username</label>
@@ -102,10 +103,10 @@ $user = NULL;
                                     <table width="100%" border="0" style="border-style: solid; border-width: 1px;border-color: #d9d9d9;">
                                         <tr>
                                             <td><label for="username">Username</label>
-    	                                        <input type="text" id="username" contenteditable="true"></td>
+    	                                        <input type="text" id="username" name="username"></td>
                                             <td><label for="password">Password</label>
-    	                                        <input type="password" id="password" contenteditable="true"></td>
-                                            <td><input class="button round small" type="button" name="go_login" id="go_login" value="Go!" style="margin-top: 5px; margin-bottom: auto"></td>
+    	                                        <input type="password" name="password" id="password"></td>
+                                            <td><input class="button round small" type="submit" name="go_login" id="go_login" value="Go!" style="margin-top: 5px; margin-bottom: auto"></td>
                                         </tr>
                                     </table>
                                 </form>

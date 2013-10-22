@@ -12,9 +12,6 @@
         'firstName'=>'First Name',
         'lastName'=>'Last Name',
         'email'=>'Email',
-        //'password1'=>'Password',
-        //'password2'=>'Re-Type Your Password'
-        //'homeZipcode'=>'Zip Code',
     );
 
     if(isset($_POST['submit'])){
@@ -22,14 +19,6 @@
         $values = array();
         $userPassword1 = MD5($_POST["userPassword1"]);
         $userPassword2 = MD5($_POST["userPassword2"]);
-
-        //if($userPassword1 == '' || $userPassword2 == ''){
-        //    echo "You forgot to enter a password.";
-
-        //}elseif($userPassword1 != $userPassword2){
-        //    echo "Your passwords do not match.";
-
-        //}else{
 
             //For each of the fields we want, check if the field was posted, and if so trim it and use it. Otherwise use NULL.
             foreach($fields AS $field=>$label){
@@ -43,12 +32,6 @@
             if(!isset($values['email']) || !strlen($values['email'])){
                 $errors['email'] = 'Please Enter an Email address';
             }
-            //if(!isset($values['password1']) || !strlen($values['password1'])){
-            //    $errors['password1'] = 'Please Enter a Password';
-            //}
-            //if(!isset($values['password2']) || !strlen($values['password2'])){
-            //    $errors['password2'] = 'Re-Enter your Password';
-            //}
 
             //If there are any errors, display the form again. Otherwise, insert the data
             if(!count($errors)){
@@ -70,7 +53,6 @@
         if($result){
             header ("Location: signup_thanks.php");
             exit;
-            // echo '<b>Thanks for Signing up  with InterestPoint!</b>';
         }else{
             echo '<b>Unable to Signup for the following reasons: </b>';
             print '<pre>'.print_r($stmt->errorInfo(), true);
