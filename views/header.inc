@@ -60,7 +60,7 @@ if (!empty($username) && !empty($password)) {
     //
     /////////////////////////////////////////////////////////////////////////////////////////////////
 
-    if (isset($_SESSION['userInfo']))
+    if (isset($_SESSION['userInfo'])){
         echo('
             <div class="row">
                 <div class="small-12 columns">
@@ -82,7 +82,9 @@ if (!empty($username) && !empty($password)) {
                                 </ul>
                             </div>
                         </div>');
-        else
+        }else{
         
         $view->show($contentPage, $user);
+
+        }
 ?>
