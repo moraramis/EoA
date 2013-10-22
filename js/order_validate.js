@@ -8,34 +8,32 @@
 function order_validate(){
 
     if (document.getElementById("name").value == ""){
-        /*alert("Enter YOur name");*/
         document.getElementById("name_label").style.color = "red";
         document.getElementById("name_label").innerHTML = "Your Name is Required";
     }else
     if (document.getElementById("address").value == ""){
-        /*alert("Enter YOur name");*/
         document.getElementById("address_label").style.color = "red";
         document.getElementById("address_label").innerHTML = "Your Address is Required";
     }else
     if (document.getElementById("city").value == ""){
-        /*alert("Enter YOur name");*/
         document.getElementById("city_label").style.color = "red";
         document.getElementById("city_label").innerHTML = "Your City is Required";
     }else
     if (document.getElementById("state").value == ""){
-        /*alert("Enter YOur name");*/
         document.getElementById("state_label").style.color = "red";
         document.getElementById("state_label").innerHTML = "Your State is Required";
     }else
     if (document.getElementById("zipcode").value == ""){
-        /*alert("Enter YOur name");*/
         document.getElementById("zipcode_label").style.color = "red";
         document.getElementById("zipcode_label").innerHTML = "Your Zipcode is Required";
     }else
     if (document.getElementById("email").value == ""){
-        /*alert("Enter YOur name");*/
         document.getElementById("email_label").style.color = "red";
         document.getElementById("email_label").innerHTML = "Your Email is Required";
+    }else
+    if (document.getElementById("creaditcard").value ==""){
+        document.getElementById("creditcard_label").style.color = "red";
+        document.getElementById("creditcard_label").innerHTML = "Your Credit Card Number is Required";
     }else{
         window.location.replace("order_thanks.php");
     }

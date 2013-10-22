@@ -28,13 +28,13 @@
     <file path="/about.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382231351230" ignored="false" />
     <file path="/blog.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382231620760" ignored="false" />
     <file path="/index.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382385163493" ignored="false" />
-    <file path="/order.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382475915692" ignored="false" />
+    <file path="/order.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382485624959" ignored="false" />
     <file path="/contact_thanks.html" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382352426159" ignored="false" />
     <file path="/contact_thanks.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382383943024" ignored="false" />
     <file path="/signup_thanks.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382400164031" ignored="false" />
     <file path="/order_thanks.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382384937235" ignored="false" />
     <file path="/userview.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382409882469" ignored="false" />
-    <file path="/order_validate.js" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382475136578" ignored="false" />
+    <file path="/order_validate.js" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382485742304" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,24 +54,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="order_validate.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="order_validate.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/order_validate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="49" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc;n#order_validate#0" expanded="false" />
-              </folding>
+            <state line="33" column="7" selection-start="1509" selection-end="1509" vertical-scroll-proportion="0.7692308">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="order.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="91" selection-start="4732" selection-end="4732" vertical-scroll-proportion="0.3082614">
+            <state line="51" column="70" selection-start="2682" selection-end="2682" vertical-scroll-proportion="-11.029411">
               <folding>
-                <element signature="e#1090#1108#0" expanded="true" />
-                <element signature="e#3998#4016#0" expanded="true" />
+                <element signature="e#2682#2700#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,7 +77,7 @@
       <file leaf-file-name="customize.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customize.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="26" selection-start="5554" selection-end="5593" vertical-scroll-proportion="-17.588236">
+            <state line="97" column="26" selection-start="5554" selection-end="5593" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,8 +124,8 @@
         <option value="$PROJECT_DIR$/views/userview.php" />
         <option value="$PROJECT_DIR$/views/header.inc" />
         <option value="$PROJECT_DIR$/signup.php" />
-        <option value="$PROJECT_DIR$/js/order_validate.js" />
         <option value="$PROJECT_DIR$/order.php" />
+        <option value="$PROJECT_DIR$/js/order_validate.js" />
       </list>
     </option>
   </component>
@@ -237,8 +234,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -268,14 +265,14 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -307,14 +304,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.67049366" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1376989" sideWeight="0.67049366" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13953489" sideWeight="0.67049366" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -417,65 +414,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/header.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/form.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="96" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="96" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/header1.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1382466866519" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1382466866519" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1382466866519" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1382466866519" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1382466866519" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1382466866519" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/authView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/authModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1382407499417" expanded="true" signature="-1:-1" placeholder="-- AND (user..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/userModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/signup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="-2.2058823">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="-2.2058823" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/customize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="26" selection-start="5554" selection-end="5593" vertical-scroll-proportion="-17.588236">
+        <state line="97" column="26" selection-start="5554" selection-end="5593" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -487,22 +461,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/order_validate.js">
+    <entry file="file://$PROJECT_DIR$/order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="49" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0">
+        <state line="51" column="70" selection-start="2682" selection-end="2682" vertical-scroll-proportion="-11.029411">
           <folding>
-            <element signature="n#!!doc;n#order_validate#0" expanded="false" />
+            <element signature="e#2682#2700#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order.php">
+    <entry file="file://$PROJECT_DIR$/js/order_validate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="91" selection-start="4732" selection-end="4732" vertical-scroll-proportion="0.3082614">
-          <folding>
-            <element signature="e#1090#1108#0" expanded="true" />
-            <element signature="e#3998#4016#0" expanded="true" />
-          </folding>
+        <state line="33" column="7" selection-start="1509" selection-end="1509" vertical-scroll-proportion="0.7692308">
+          <folding />
         </state>
       </provider>
     </entry>
