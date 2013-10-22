@@ -1,4 +1,6 @@
 <?php
+    //Buffer output so we dont get a header error
+    ob_start();
 
     require_once('db.php');
     require_once('views/authView.php');
