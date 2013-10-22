@@ -5,7 +5,8 @@
 
 <!DOCTYPE html>
     <!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
-	<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+	<!--[if gt IE 8]><!-->
+    <html class="no-js" lang="en" xmlns="http://www.w3.org/1999/html"> <!--<![endif]-->
 
 	<head>
 	    <meta charset="utf-8">
@@ -16,7 +17,7 @@
 		<script src="js/vendor/custom.modernizr.js"></script>
 
 	</head>
-	<body>
+	<body onload="">
 	    <div class="row">
             <div class="large-12 columns">
                 <div class="row">
@@ -49,7 +50,7 @@
                     <div class="large-7 columns">
                         <h4>Billing Information</h4>
                         <label for="creditcard" style="left: auto">Credit Card: </label>
-                        <input type="text" contenteditable="true" name="creditcard" id="creditcard" value="Card Number">
+                        <input type="text" contenteditable="true" name="creditcard" id="creditcard">
                         <div class="large-4 columns">
                             <label for="expdate" style="left: auto">Exp Date</label>
                             <select>
@@ -79,10 +80,37 @@
                                 <option value="2019">2019</option>
                                 <option value="2020">2020</option>
                             </select>
+
                             <p><a href="order_thanks.php"  class="button round">Order!</a></p>
+                            </form>
+
+                            <!-- <form name="totalBoxHide">
+                                <input type="hidden" name="totalHidden">
+                            </form>
+
+                            <form name="totalBoxShow">
+                                <label for="totalVisible">Total:</label>
+                                <input type="text" name="totalVisible">
+                            </form>
+
+                            <script language="javascript">
+                                var locate = window.location;
+                                document.totalBoxHide.totalHidden.value = locate;
+
+                                var text = document.totalBoxHide.totalHidden.value;
+
+                                function delineate(str){
+                                    theleft = str.indexOf("=") + 1;
+                                    return(str.substring(theleft));
+                                }
+
+                                document.write(delineate(text));
+                                }
+                                var tot = delineate(text);
+                                document.totalBoxShow.totalVisible.value = tot;
+                            </script> -->
                         </div>
                     </div>
-                            </form>
                 </div>
             </div>
         </div>

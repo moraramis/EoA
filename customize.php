@@ -82,15 +82,18 @@
                                     <option value="fudge">Fudge</option>
                                 </select>
                                 <p class="button round small" onclick="calculate()">Calculate</p>
-                        <!-- </form>-->
+                        </form>
                         </div>
                     </div>
                     <div class="large-7 columns">
-                        <h4>Total:</h4>
-                        <div class="panel" id="totpan">$9.50</div>
+                        <form action="order.php">
+                            <h4>Total:</h4>
 
-                        <p><a href="order.php"  class="button round">Order!</a></p>
-                            </form>
+                            <div class="panel" id="totpan">$9.50</div>
+                            <input type="text" name="tottxt" value="9.50" id="tottxt" hidden="true">
+                            <button type="submit" id="order" class="round">Order!</button>
+                            <!-- <p onclick="varpass()"><a href="order.php" class="button round">Order!</a></p> -->
+                        </form>
                         <script src="js/calculate.js"></script>
                     </div>
                 </div>

@@ -7,30 +7,34 @@
  */
 
 function calculate(){
-    var p = 9.50
+    var p = 9.5;
+    /*var p2 = document.getElementById("totpan").innerHTML;*/
     /*alert("it works");*/
     if( document.getElementById("flavor1").text != "None"){
-        document.getElementById("totpan").innerHTML="$" + p;
+        document.getElementById("tottxt").value = p;
     }
     if(document.getElementById("flavor2").value != "none"){
-        p = p+6.33;
-        document.getElementById("totpan").innerHTML="$" + p;
+        p = p + 6.33;
+        document.getElementById("tottxt").value = p;
     }
     if(document.getElementById("flavor3").value != "none"){
-        p = p+6.33;
-        document.getElementById("totpan").innerHTML="$" + p;
+        p = p + 6.33;
+        document.getElementById("tottxt").value = p;
     }
     if(document.getElementById("mix1").value != "none"){
-        p = p+2;
-        document.getElementById("totpan").innerHTML="$" + p;
+        p = p + 2;
+        document.getElementById("tottxt").value = p;
     }
     if(document.getElementById("mix2").value != "none"){
-        p = p+2;
-        document.getElementById("totpan").innerHTML="$" + p;
+        p = p + 2;
+        document.getElementById("tottxt").value = p;
     }
     if(document.getElementById("swirled").checked == 1){
-        p=p+.5;
-        document.getElementById("totpan").innerHTML="$" + p;
+        p=p + .5;
+        document.getElementById("tottxt").value = p;
     }
+
+    /*document.getElementById("tottxt").value = document.getElementById("totpan").innerHTML;*/
+    document.getElementById("totpan").innerHTML = "$" + document.getElementById("tottxt").value;
 
 }
