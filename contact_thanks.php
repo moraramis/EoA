@@ -1,3 +1,8 @@
+<?php
+require_once "views/authView.php";
+include ('views/header.inc');
+//sec_session_start(); 
+?>
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->

@@ -1,4 +1,5 @@
 <?php 
+	require_once "views/authView.php";
 	include('views/header.inc');
 	//sec_session_start();
 ?>

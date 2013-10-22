@@ -1,5 +1,6 @@
 <?php
-session_start();
+require_once "views/authView.php";
+sec_session_start();
 
 unset($_SESSION['userInfo']);
 

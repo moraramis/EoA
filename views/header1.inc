@@ -6,26 +6,28 @@ require_once "views/authView.php";
 
 $model = new authModel(MY_DSN, MY_USER, MY_PASS);
 $view = new authView();
-
 //Log in 
 $username = empty($_POST['userName']) ? '' : strtolower(trim($_POST['userName']));
 $password = empty($_POST['userPassword']) ? '' : trim($_POST['userPassword']);
 
-//echo $username.' : '.$password;
-
-$contentPage = 'form';
+//$contentPage = 'form';
 $user = NULL;
-sec_session_start(); 
+//My Secured Session start that calls out a function i've set up in authView.php
+sec_session_start();
 
 //My if conditional that will display the success.inc page if log in was successful
-
-$user =& $_SESSION['userInfo'];
-
+if (!empty($_SESSION['userInfo'])){
+    $contentPage = 'success';
+    $user = $_SESSION['userInfo'];
+}
 
 if (!empty($username) && !empty($password)) {
     $user = $model->getUserByNamePass($username, $password);
-    if (!$user) {
-    
+    if (is_array($user)) {
+        $contentPage = 'success';
+        $_SESSION['userInfo'] = $user;
+    }else{
+
         "Please Log in";
     }
 }
@@ -67,8 +69,7 @@ if (!empty($username) && !empty($password)) {
                             <div class="right_form"  style="margin-top: 1%; width: 50% ">
                                 <!-- <input type="text" contenteditable="true" value="Search"> -->
 
-                                        <p class="wb">Welcome Back!</p>
-                                        <p class=logout"><a href="logout.php">Not You? Please Log Out then back in</a></p>
+                                        <p class="wb">Welcome Back, <?php  echo htmlentities($data["username"]); ?></p>
                                         </div>
                                      </div>
                                  <hr />
@@ -82,8 +83,8 @@ if (!empty($username) && !empty($password)) {
                             </div>
                         </div>');
         }else{
-        
-        $view->show($contentPage, $user);
+        $view->show('form', '');
+        //$view->show($contentPage, $user);
 
         }
 ?>
