@@ -31,19 +31,19 @@
                         <div class="panel">
                             <h4>Your Details</h4>
                             <form>
-                                <label for="name" style="left: auto">Name: </label>
+                                <label for="name" id="name_label" style="left: auto">Name: </label>
                                 <input type="text" contenteditable="true" name="name" id="name">
-                                <label for="address" style="left: auto">Address: </label>
+                                <label for="address" id="address_label" style="left: auto">Address: </label>
                                 <input type="text" contenteditable="true" name="address" id="address">
-                                <label for="city" style="left: auto">City: </label>
+                                <label for="city" id="city_label" style="left: auto">City: </label>
                                 <input type="text" contenteditable="true" name="city" id="city">
-                                <label for="state" style="left: auto">State: </label>
+                                <label for="state" id="state_label" style="left: auto">State: </label>
                                 <input type="text" contenteditable="true" name="state" id="state">
-                                <label for="zipcode" style="left: auto">Zipcode: </label>
+                                <label for="zipcode" id="zipcode_label" style="left: auto">Zipcode: </label>
                                 <input type="text" contenteditable="true" name="zipcode" id="zipcode">
-                                <label for="phone" style="left: auto">Phone #: </label>
+                                <label for="phone" id="phone_label" style="left: auto">Phone #: </label>
                                 <input type="text" contenteditable="true" name="phone" id="phone">
-                                <label for="email" style="left: auto">E-Mail:</label>
+                                <label for="email" id="email_label" style="left: auto">E-Mail:</label>
                                 <input type="email" contenteditable="true" name="email" id="email">
                         </div>
                     </div>
@@ -80,8 +80,9 @@
                                 <option value="2019">2019</option>
                                 <option value="2020">2020</option>
                             </select>
-                            <p><a href="order_thanks.php"  class="button round">Order!</a></p>
+                            <p class="button round small" onclick="order_validate()">Order!</p>
                             </form>
+                            <script src="js/order_validate.js"></script>
                             <label for="total">Total:</label>
                             <div class="panel" style="width: 90%" id="total">$
                             <?php
