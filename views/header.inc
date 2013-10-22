@@ -10,7 +10,7 @@ $view = new authView();
 $username = empty($_POST['userName']) ? '' : strtolower(trim($_POST['userName']));
 $password = empty($_POST['userPassword']) ? '' : trim($_POST['userPassword']);
 
-$contentPage = 'form';
+//$contentPage = 'form';
 $user = NULL;
 //My Secured Session start that calls out a function i've set up in authView.php
 sec_session_start();
@@ -83,8 +83,8 @@ if (!empty($username) && !empty($password)) {
                             </div>
                         </div>');
         }else{
-        
-        $view->show($contentPage, $user);
+        $view->show('form', '');
+        //$view->show($contentPage, $user);
 
         }
 ?>

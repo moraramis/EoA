@@ -6,6 +6,10 @@ class userView {
         include "header.inc";
     }
 
+    public function showForm(){
+        include "form.inc";
+    }
+
     public function showFooter() {
         include "footer.inc";
     }

@@ -8,10 +8,10 @@
                                     <table width="100%" border="0" style="border-style: solid; border-width: 1px;border-color: #d9d9d9;">
                                         <tr>
                                             <td><label for="username">Username</label>
-    	                                        <input type="text" name="username" id="username" contenteditable="true"></td>
+    	                                        <input type="text" name="username" id="username"></td>
                                             <td><label for="password">Password</label>
-    	                                        <input type="password" name="password "id="userPassword" contenteditable="true"></td>
-                                            <td><input class="button round small" type="submit" name="go_login" id="go_login" value="Go!" style="margin-top: 5px; margin-bottom: auto"></td>
+    	                                        <input type="password" name="password "id="userPassword"></td>
+                                            <td><input class="button round small" type="submit" value="Go!" style="margin-top: 5px; margin-bottom: auto"></td>
                                         </tr>
                                     </table>
                                 </form>
