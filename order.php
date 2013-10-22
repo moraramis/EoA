@@ -82,7 +82,8 @@
                             </select>
                             <p><a href="order_thanks.php"  class="button round">Order!</a></p>
                             </form>
-                            <div class="panel" style="width: 80%" id="total">
+                            <label for="total">Total:</label>
+                            <div class="panel" style="width: 90%" id="total">$
                             <?php
                                 $total = $_GET['tottxt'];
                                 echo $total;
