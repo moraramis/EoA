@@ -80,9 +80,15 @@
                                 <option value="2019">2019</option>
                                 <option value="2020">2020</option>
                             </select>
-
                             <p><a href="order_thanks.php"  class="button round">Order!</a></p>
                             </form>
+                            <div class="panel" style="width: 80%" id="total">
+                            <?php
+                                $total = $_GET['tottxt'];
+                                echo $total;
+
+                            ?>
+                            </div>
 
                             <!-- <form name="totalBoxHide">
                                 <input type="hidden" name="totalHidden">
