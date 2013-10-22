@@ -90,7 +90,7 @@
                             <h4>Total:</h4>
 
                             <div class="panel" id="totpan">$9.50</div>
-                            <input type="text" name="tottxt" value="9.50" id="tottxt" hidden="true">
+                            <input type="hidden" name="tottxt" value="9.50" id="tottxt" hidden="true">
                             <button type="submit" id="order" class="round">Order!</button>
                             <!-- <p onclick="varpass()"><a href="order.php" class="button round">Order!</a></p> -->
                         </form>
