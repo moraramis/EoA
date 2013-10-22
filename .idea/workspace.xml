@@ -33,7 +33,6 @@
     <file path="/contact_thanks.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382383943024" ignored="false" />
     <file path="/signup_thanks.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382400164031" ignored="false" />
     <file path="/order_thanks.php" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382384937235" ignored="false" />
-    <file path="$PROJECT_DIR$/views/header.inc" changelist="108c780a-da61-4256-be32-8892f8e4daad" time="1382408630663" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +52,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="customize.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="customize.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customize.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="47" selection-start="5196" selection-end="5196" vertical-scroll-proportion="0.5856967">
+            <state line="100" column="14" selection-start="5638" selection-end="5638" vertical-scroll-proportion="-26.470589">
               <folding />
             </state>
           </provider>
@@ -65,9 +64,25 @@
       <file leaf-file-name="order.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="35" selection-start="5064" selection-end="5064" vertical-scroll-proportion="-20.588236">
+            <state line="92" column="22" selection-start="4974" selection-end="4974" vertical-scroll-proportion="-67.64706">
               <folding>
-                <element signature="e#4660#4678#0" expanded="true" />
+                <element signature="e#4659#4677#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.inc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/header.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.1566416">
+              <folding>
+                <marker date="1382408590346" expanded="true" signature="2293:3596" placeholder="..." />
+                <marker date="1382408590346" expanded="true" signature="2340:3565" placeholder="..." />
+                <marker date="1382408590346" expanded="true" signature="2378:2897" placeholder="..." />
+                <marker date="1382408590346" expanded="false" signature="2558:2585" placeholder="..." />
+                <marker date="1382408590346" expanded="true" signature="2586:2853" placeholder="..." />
+                <marker date="1382408590346" expanded="true" signature="2995:3530" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -114,8 +129,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/signup.php" />
         <option value="$PROJECT_DIR$/signup_thanks.php" />
-        <option value="$PROJECT_DIR$/order.php" />
         <option value="$PROJECT_DIR$/customize.php" />
+        <option value="$PROJECT_DIR$/order.php" />
       </list>
     </option>
   </component>
@@ -167,6 +182,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="EoA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EoA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EoA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -267,7 +296,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -349,19 +378,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/order_thanks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="52" selection-start="303" selection-end="303" vertical-scroll-proportion="0.21929824" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact_process.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="40" selection-start="784" selection-end="784" vertical-scroll-proportion="0.8323058" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/header.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.34461153" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact_thanks.php">
@@ -437,19 +456,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/customize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="14" selection-start="5638" selection-end="5638" vertical-scroll-proportion="-26.470589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="35" selection-start="5064" selection-end="5064" vertical-scroll-proportion="-20.588236">
+        <state line="92" column="22" selection-start="4974" selection-end="4974" vertical-scroll-proportion="-67.64706">
           <folding>
-            <element signature="e#4660#4678#0" expanded="true" />
+            <element signature="e#4659#4677#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customize.php">
+    <entry file="file://$PROJECT_DIR$/views/header.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="47" selection-start="5196" selection-end="5196" vertical-scroll-proportion="0.5856967">
-          <folding />
+        <state line="11" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.1566416">
+          <folding>
+            <marker date="1382408590346" expanded="true" signature="2293:3596" placeholder="..." />
+            <marker date="1382408590346" expanded="true" signature="2340:3565" placeholder="..." />
+            <marker date="1382408590346" expanded="true" signature="2378:2897" placeholder="..." />
+            <marker date="1382408590346" expanded="false" signature="2558:2585" placeholder="..." />
+            <marker date="1382408590346" expanded="true" signature="2586:2853" placeholder="..." />
+            <marker date="1382408590346" expanded="true" signature="2995:3530" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

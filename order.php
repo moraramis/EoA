@@ -44,7 +44,6 @@
                                 <input type="text" contenteditable="true" name="phone" id="phone">
                                 <label for="email" style="left: auto">E-Mail:</label>
                                 <input type="email" contenteditable="true" name="email" id="email">
-
                         </div>
                     </div>
                     <div class="large-7 columns">
@@ -89,32 +88,6 @@
 
                             ?>
                             </div>
-
-                            <!-- <form name="totalBoxHide">
-                                <input type="hidden" name="totalHidden">
-                            </form>
-
-                            <form name="totalBoxShow">
-                                <label for="totalVisible">Total:</label>
-                                <input type="text" name="totalVisible">
-                            </form>
-
-                            <script language="javascript">
-                                var locate = window.location;
-                                document.totalBoxHide.totalHidden.value = locate;
-
-                                var text = document.totalBoxHide.totalHidden.value;
-
-                                function delineate(str){
-                                    theleft = str.indexOf("=") + 1;
-                                    return(str.substring(theleft));
-                                }
-
-                                document.write(delineate(text));
-                                }
-                                var tot = delineate(text);
-                                document.totalBoxShow.totalVisible.value = tot;
-                            </script> -->
                         </div>
                     </div>
                 </div>
