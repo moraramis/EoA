@@ -24,7 +24,7 @@
                         <ul class="button-group">
                             <li><a href="index.php" class="small button">Home</a></li>
                             <li><a href="signup.php" class="small button">Sign Up</a></li>
-                            <li><a href="customize.php" class="small button">Order/Customize</a></li>
+                            <!-- <li><a href="customize.php" class="small button">Order/Customize</a></li> -->
                             <li><a href="about.php" class="small button">About Us</a></li>
                             <li><a href="blog.php" class="small button">Blog</a></li>
                         </ul>

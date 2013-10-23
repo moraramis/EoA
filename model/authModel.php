@@ -8,8 +8,8 @@ class authModel {
     }
         //Escape Strings that prevent SQL Injections by seperating username and pass into two variables
     public function getUserByNamePass($name, $pass) {
-        mysql_real_escape_string($name);
-        mysql_real_escape_string($pass);
+        //mysql_real_escape_string($name);
+        //mysql_real_escape_string($pass);
 
         //setting up a db query
         $stmt = $this->db->prepare("
