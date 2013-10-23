@@ -17,18 +17,35 @@ $contentPage = 'form';
 $user = NULL;
 sec_session_start(); 
 
-//My if conditional that will display the success.inc page if log in was successful
 
-$user =& $_SESSION['userInfo'];
-
+if (!empty($_SESSION['userInfo'])){
+    $contentPage = 'success';
+    $user = $_SESSION['userInfo'];
+}
 
 if (!empty($username) && !empty($password)) {
     $user = $model->getUserByNamePass($username, $password);
-    if (!$user) {
-    
+    if (is_array($user)) {
+        $contentPage = 'success';
+        $_SESSION['userInfo'] = $user;
+    }else{
+
         "Please Log in";
     }
 }
+
+//My if conditional that will display the success.inc page if log in was successful
+
+//$user =& $_SESSION['userInfo'];
+
+
+//if (!empty($username) && !empty($password)) {
+//    $user = $model->getUserByNamePass($username, $password);
+ //   if (!$user) {
+//    
+//        "Please Log in";
+//    }
+//}
 
 //$contentPage = 'showLocation';
 
@@ -63,8 +80,8 @@ if (!empty($username) && !empty($password)) {
             <div class="row">
                 <div class="small-12 columns">
                     <div class="row">
-                        <img src="img/logo.png" class="logo" height="267" width="400" alt ="Essence of Awesome Logo">
-                            <div class="right_form"  style="margin-top: 1%; width: 50% ">
+                        <img src="img/logo.png" class="logo" height="267" width="400" alt ="Essence of Awesome Logo" style="margin-left: 10%; margin-bottom: -7%; margin-top: -3%">
+                            <div class="right_form"  style="background-color: #f2f2f2; margin-top: 7%; margin-right: 2%; padding-top:1%; padding-left: 2%; border-style: solid; border-width: 1px; border-color: #d9d9d9;">
                                 <!-- <input type="text" contenteditable="true" value="Search"> -->
 
                                         <p class="wb">Welcome Back!</p>

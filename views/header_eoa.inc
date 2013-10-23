@@ -64,14 +64,6 @@
                                 <!-- <input type="text" contenteditable="true" value="Search"> -->
                                 <!-- <div class="panel1"> -->
                                 <form method="post">
-                                    <!-- Original Login Form
-                                    <p class="login">Login</p>
-                                    <label for="username">Username</label>
-                                    <input type="text" width="150" contenteditable="true" value="Username" id="username">
-                                    <label for="password">Password</label>
-                                    <input type="text" width="150" contenteditable="true" value="Password" id="password">
-                                    <input class="button round small" type="button" name="go_login" id="go_login" value="Go!"> -->
-
                                     <!-- Table Based 1 Row Login Form -->
                                     <table width="100%" border="0" style="border-style: solid; border-width: 1px;border-color: #d9d9d9;">
                                         <tr>

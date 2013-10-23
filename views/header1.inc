@@ -68,23 +68,21 @@ if (!empty($username) && !empty($password)) {
                         <img src="img/logo.png" class="logo" height="267" width="400" alt ="Essence of Awesome Logo">
                             <div class="right_form"  style="margin-top: 1%; width: 50% ">
                                 <!-- <input type="text" contenteditable="true" value="Search"> -->
-
-                                        <p class="wb">Welcome Back, <?php  echo htmlentities($data["username"]); ?></p>
-                                        </div>
-                                     </div>
-                                 <hr />
-                                <ul class="button-group">
-                                    <li><a href="index.php" class="small button">Home</a></li>
-                                    <li><a href="customize.php" class="small button">Order/Customize</a></li>
-                                    <li><a href="about.php" class="small button">About Us</a></li>
-                                    <li><a href="blog.php" class="small button">Blog</a></li>
-                                    <li><a href="logout.php" class="small button">Log Out</a></li>
-                                </ul>
+                                <p class="wb">Welcome Back, <?php  echo htmlentities($data["username"]); ?></p>
                             </div>
-                        </div>');
+                    </div>
+                    <hr />
+                    <ul class="button-group">
+                        <li><a href="index.php" class="small button">Home</a></li>
+                        <li><a href="customize.php" class="small button">Order/Customize</a></li>
+                        <li><a href="about.php" class="small button">About Us</a></li>
+                        <li><a href="blog.php" class="small button">Blog</a></li>
+                        <li><a href="logout.php" class="small button">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>');
         }else{
         $view->show('form', '');
         //$view->show($contentPage, $user);
-
         }
 ?>
