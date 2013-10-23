@@ -1,11 +1,11 @@
 <?php
-require_once "views/authView.php";
-sec_session_start();
+    require_once "views/authView.php";
+    sec_session_start();
 
-unset($_SESSION['userInfo']);
+    unset($_SESSION['userInfo']);
 
-session_destroy();
+    session_destroy();
 
-header('Location: index.php');
-exit;
+    header('Location: index.php');
+    exit;
 ?>

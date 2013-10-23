@@ -32,34 +32,6 @@ if (!empty($username) && !empty($password)) {
     }
 }
 
-//$contentPage = 'showLocation';
-
-
-//$view->show('header', '');
-//$view->show($contentPage, $user);
-//$view->show('footer', '');
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    //This Block of code was carried over from InterestPoint and can be cleaned up before handoff.
-    //
-    //    <div id="login_form">
-    //        <h2>Login</h2>
-    //        <p>Please Log in with your username and password below.</p>
-    //        <form action ="?" method="POST">
-    //            <label for="username">Username:</label><br />
-    //            <input type="text" name="username" id="username" maxlength="30" size="20"/><br />
-    //            <label for="password">Password:</label><br />
-    //            <input type="password" name="password" id="password" maxlength="30" size="20" /><br />
-    //            <br />
-    //            <input class="button success" type="submit" value="Submit" />
-    //        </form>
-    //    </div>
-    //
-    //    <h2>New User?</h2>
-    //    <p><a href="signup.php" class="button">Sign Up Here</a> </p> -->
-    //
-    /////////////////////////////////////////////////////////////////////////////////////////////////
-
     if (isset($_SESSION['userInfo'])){
         echo('
             <div class="row">

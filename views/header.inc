@@ -34,47 +34,6 @@ if (!empty($username) && !empty($password)) {
     }
 }
 
-//My if conditional that will display the success.inc page if log in was successful
-
-//$user =& $_SESSION['userInfo'];
-
-
-//if (!empty($username) && !empty($password)) {
-//    $user = $model->getUserByNamePass($username, $password);
- //   if (!$user) {
-//    
-//        "Please Log in";
-//    }
-//}
-
-//$contentPage = 'showLocation';
-
-
-//$view->show('header', '');
-//$view->show($contentPage, $user);
-//$view->show('footer', '');
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    //This Block of code was carried over from InterestPoint and can be cleaned up before handoff.
-    //
-    //    <div id="login_form">
-    //        <h2>Login</h2>
-    //        <p>Please Log in with your username and password below.</p>
-    //        <form action ="?" method="POST">
-    //            <label for="username">Username:</label><br />
-    //            <input type="text" name="username" id="username" maxlength="30" size="20"/><br />
-    //            <label for="password">Password:</label><br />
-    //            <input type="password" name="password" id="password" maxlength="30" size="20" /><br />
-    //            <br />
-    //            <input class="button success" type="submit" value="Submit" />
-    //        </form>
-    //    </div>
-    //
-    //    <h2>New User?</h2>
-    //    <p><a href="signup.php" class="button">Sign Up Here</a> </p> -->
-    //
-    /////////////////////////////////////////////////////////////////////////////////////////////////
-
     if (isset($_SESSION['userInfo'])){
         echo('
             <div class="row">
@@ -83,21 +42,21 @@ if (!empty($username) && !empty($password)) {
                         <img src="img/logo.png" class="logo" height="267" width="400" alt ="Essence of Awesome Logo" style="margin-left: 10%; margin-bottom: -7%; margin-top: -3%">
                             <div class="right_form"  style="background-color: #f2f2f2; margin-top: 7%; margin-right: 2%; padding-top:1%; padding-left: 2%; border-style: solid; border-width: 1px; border-color: #d9d9d9;">
                                 <!-- <input type="text" contenteditable="true" value="Search"> -->
-
-                                        <p class="wb">Welcome Back!</p>
-                                        <p class=logout"><a href="logout.php">Not You? Please Log Out then back in</a></p>
-                                        </div>
-                                     </div>
-                                 <hr />
-                                <ul class="button-group">
-                                    <li><a href="index.php" class="small button">Home</a></li>
-                                    <li><a href="customize.php" class="small button">Order/Customize</a></li>
-                                    <li><a href="about.php" class="small button">About Us</a></li>
-                                    <li><a href="blog.php" class="small button">Blog</a></li>
-                                    <li><a href="logout.php" class="small button">Log Out</a></li>
-                                </ul>
+                                <p class="wb">Welcome Back!</p>
+                                <p class=logout"><a href="logout.php">Not You? Please Log Out then back in</a></p>
                             </div>
-                        </div>');
+                    </div>
+                    <hr />
+                    <ul class="button-group">
+                        <li><a href="index.php" class="small button">Home</a></li>
+                        <li><a href="customize.php" class="small button">Order/Customize</a></li>
+                        <li><a href="about.php" class="small button">About Us</a></li>
+                        <li><a href="blog.php" class="small button">Blog</a></li>
+                        <li><a href="logout.php" class="small button">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+            ');
         }else{
         
         $view->show($contentPage, $user);

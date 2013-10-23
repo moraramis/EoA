@@ -14,9 +14,6 @@
         'firstName'=>'First Name',
         'lastName'=>'Last Name',
         'email'=>'Email',
-        //'password1'=>'Password',
-        //'password2'=>'Re-Type Your Password'
-        //'homeZipcode'=>'Zip Code',
     );
 
     if(isset($_POST['submit'])){
@@ -24,14 +21,6 @@
         $values = array();
         $userPassword1 = MD5($_POST["userPassword1"]);
         $userPassword2 = MD5($_POST["userPassword2"]);
-
-        //if($userPassword1 == '' || $userPassword2 == ''){
-        //    echo "You forgot to enter a password.";
-
-        //}elseif($userPassword1 != $userPassword2){
-        //    echo "Your passwords do not match.";
-
-        //}else{
 
             //For each of the fields we want, check if the field was posted, and if so trim it and use it. Otherwise use NULL.
             foreach($fields AS $field=>$label){
@@ -45,12 +34,6 @@
             if(!isset($values['email']) || !strlen($values['email'])){
                 $errors['email'] = 'Please Enter an Email address';
             }
-            //if(!isset($values['password1']) || !strlen($values['password1'])){
-            //    $errors['password1'] = 'Please Enter a Password';
-            //}
-            //if(!isset($values['password2']) || !strlen($values['password2'])){
-            //    $errors['password2'] = 'Re-Enter your Password';
-            //}
 
             //If there are any errors, display the form again. Otherwise, insert the data
             if(!count($errors)){
@@ -142,6 +125,16 @@
                 </div>
             </div>
         </div>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-45121107-1', 'bplaced.net');
+            ga('send', 'pageview');
+
+        </script>
     </body>
 
 <?php
