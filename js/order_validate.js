@@ -31,7 +31,7 @@ function order_validate(){
         document.getElementById("email_label").style.color = "red";
         document.getElementById("email_label").innerHTML = "Your Email is Required";
     }else
-    if (document.getElementById("creaditcard").value ==""){
+    if (document.getElementById("creditcard").value == ""){
         document.getElementById("creditcard_label").style.color = "red";
         document.getElementById("creditcard_label").innerHTML = "Your Credit Card Number is Required";
     }else{

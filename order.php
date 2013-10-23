@@ -50,7 +50,7 @@
                     <div class="large-7 columns">
                         <h4>Billing Information</h4>
                         <label for="creditcard" id="creditcard_label" style="left: auto">Credit Card: </label>
-                        <input type="text" contenteditable="true" name="creditcard" id="creditcard">
+                        <input type="text"name="creditcard" id="creditcard">
                         <div class="large-4 columns">
                             <label for="expdate" style="left: auto">Exp Date</label>
                             <select>

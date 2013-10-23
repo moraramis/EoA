@@ -47,7 +47,7 @@
                                 portion-controlled ice cream confection, our member companies are making a wide-range of flavors and
                                 product types that allow consumers to choose the treat that appeals to them,” said Peggy Armstrong,
                                 vice president of communications for the International Dairy Foods Association.  “Ice cream is a fun and
-                                nutritious food that fits into almost every lifestyle.” <a href="customize.php"><b>Order Your Premium Ice Cream Today</b></a> </p>
+                                nutritious food that fits into almost every lifestyle.” <a href="signup.php"><b>Order Your Premium Ice Cream Today</b></a> </p>
                         </div>
                     </div>
                 </div>
