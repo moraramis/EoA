@@ -13,7 +13,7 @@
     $reason = $_REQUEST['reason'];
 
     $body =
-        "Received from the EoA Bug Checker Form.\n" .
+        "Received from the EoA Contact Form.\n" .
         "\n" .
         "------------------------------------------------------\n" .
         "\nName: $name" .
